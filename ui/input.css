@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@source "../src/index.html";
+@source "../src/app.js";
+
+@theme {
+  --font-mono: "JetBrains Mono", "Fira Code", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+
+@layer base {
+  html,
+  body {
+    height: 100%;
+    color-scheme: dark;
+  }
+
+  textarea {
+    tab-size: 4;
+  }
+
+  pre {
+    tab-size: 4;
+  }
+}
