@@ -1,7 +1,7 @@
 {
   "name": "rust-lab",
   "private": true,
-  "version": "1.0.5",
+  "version": "1.0.8",
   "scripts": {
     "css:build": "tailwindcss -i ui/input.css -o src/styles.css --minify",
     "css:watch": "tailwindcss -i ui/input.css -o src/styles.css --watch=always"
